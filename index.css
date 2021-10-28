@@ -10,14 +10,16 @@
   }
 
   ul {
-    margin: 2px ;
+    margin: 20px ;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    width:fit-content;
+    background-color: rgba(233, 226, 130, 0.308);
     
 
   }
-  /* Style the list items */
+ /* ilk ul*/
   ul li {
     cursor: pointer;
    
@@ -31,11 +33,12 @@
     background-image: url("./images/note.png");
     font-size: 18px;
     font-family: 'Indie Flower', cursive;
+    /* box-shadow: 5px 5px 5px 5px rgba(109, 109, 109, 0.116); */
     
   list-style-type: none; /* disc işreti kaldırıldı*/
   }
   
-  
+  /*ikinci eklenenler*/
   ul li:nth-child(odd) {
     
     background-image: url("./images/note.png");

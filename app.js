@@ -1,3 +1,4 @@
+//liste oluşturucu
 var list = document.getElementsByTagName("LI");
 for(let i=0;i < list.lenght;i++){
     var span = document.createElement("SPAN");
@@ -7,7 +8,7 @@ for(let i=0;i < list.lenght;i++){
     list[i].appendChild(span);
 }
 
-
+//sil butonu
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -17,7 +18,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Add a "checked" symbol when clicking on a list item
+// cheked sembolü
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
@@ -25,6 +26,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
+//butona basıldığında aktif olur
 function newElement(){
     let li = document.createElement("li"); //html sayfasına li elementi oluşturuldu
     let inputValue = document.getElementById("todoInput").value ; //html deki input değeri alındı
