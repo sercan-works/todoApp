@@ -4,7 +4,7 @@ for(let i=0;i < list.lenght;i++){
     var txt = document.createTextNode("\u00D7");
     span.className = "close";
     span.appendChild(txt);
-    myNodelist[i].appendChild(span);
+    list[i].appendChild(span);
 }
 
 
